@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jslint:fix": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js",
+    "build": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +23,10 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^2.0.7",
     "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
